@@ -2,8 +2,10 @@
   text-align: center;
   font-size: 14px;
   color: gray;
-  background-position: 40%;
+  background-position: 35%;
   background-size: 6%;
+  background-image: url(/assets/search-solid.svg);
+  background-repeat: no-repeat;
 }
 
 input.empty {
@@ -35,12 +37,67 @@ input.empty {
   color: black;
 }
 
+.rightpanel{
+  background-color: #ffffff;
+  border: none;
+}
+
 .rightpanellinks {
   text-decoration: none;
-  color: lightgrey;
+  color: rgb(146, 146, 146);
 }
 
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+
+.navbar{
+  height: 54px;
+  background-color: #FFFFFF;
+}
+
+.logo{
+  margin-left: 192px;
+}
+
+.middlearea{
+  max-height: 200px !important;
+}
+
+.card-body>a{
+  text-align: center;
+}
+
+.card-header{
+  background-color: #FFFFFF;
+}
+
+.card-footer{
+  background-color: #FFFFFF;
+
+}
+
+.fas{
+  float: right;
+}
+
+.card{
+  margin-bottom: 1.5rem !important;
+}
+
+.list-group{
+  border: none !important;
+}
+
+.far .fa-bookmark{
+  offset: 7;
+}
+
+.share{
+  float: right;
+}
+
+#sticky-sidebar{
+  position: fixed;
 }
