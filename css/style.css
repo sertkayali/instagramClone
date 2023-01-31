@@ -54,7 +54,10 @@ input.empty {
 
 .navbar{
   height: 54px;
+  width: 100%;
   background-color: #FFFFFF;
+  position: fixed;
+  z-index: 99;
 }
 
 .logo{
@@ -100,4 +103,12 @@ input.empty {
 
 #sticky-sidebar{
   position: fixed;
+}
+
+.posts{
+  margin-top: 70px;
+}
+
+.recomments{
+  margin-top: 70px;
 }
